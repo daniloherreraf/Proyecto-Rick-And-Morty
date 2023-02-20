@@ -1,0 +1,118 @@
+.bg{
+    
+    background-image: url("https://www.xtrafondos.com/wallpapers/resized/rick-en-otro-planeta-6354.jpg?s=large");
+}
+
+/************* NavBar ***************/
+.navBar {
+  background: rgba(235, 229, 225, 0.69);
+  border: 1px solid #8f8e8e;
+  height: 60px;
+  width: 100%;
+  top: 0px;
+  position: fixed;
+  z-index: 80;
+}
+
+/************* Filtro & Paginado ***************/
+.filtroPaginado {
+  width: 100%;
+  padding-top: 80px;
+}
+
+/************* Ordenamiento & Filtro ***************/
+.sortFilter {
+  margin: 10px;
+  display:flexbox;
+  justify-content:space-between;
+  width: 100%;
+}
+.sortFilter select {
+  display: flex;
+  border-radius: 5px;
+  margin: 1px;
+  height: 40px;
+  width: 130px;
+  padding: 10px;
+  text-align:center;
+  border: 1px solid rgb(49, 20, 3);
+  font-family: "DM Sans", sans-serif;
+  background: rgba(247, 244, 243, 0.69);
+  font-size: 15px;
+}
+
+.sortFilter select:hover {
+  cursor: pointer;
+  transition: background-color 0.5s;
+  background-color: white;
+  color: black;
+  font-weight: bold;
+  border: 1px solid #313131;
+}
+
+/************* Paginado ***************/
+.paginado {
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+/************* Card ***************/
+.card {
+  display: flex;
+  margin-top: 20px;
+}
+
+.card1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  margin-left: 80px;
+  margin-right: 80px;
+}
+
+.paginado {
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%
+}
+
+.sortFilter button {
+  border-radius: 15px;
+  margin-left: 2px;
+  margin-top: 5px;
+  height: 35px;
+  width: 120px;
+  padding: 5px;
+  text-align: center;
+  border: 1px solid #8f8e8e;
+  font-family: "DM Sans", sans-serif;
+  background: rgba(178, 165, 157, 0.69);
+  font-size: 20px;
+  }
+
+.sortFilter button:hover {
+  cursor: pointer;
+  transition: background-color 0.5s;
+  background-color: white;
+  color: black;
+  font-weight: bold;
+  border: 1px solid #313131;
+}
+
+
+@media screen and (max-width: 425px) {
+  .card1 {
+    display: flex;
+    flex-direction: column;
+
+    margin-top: 20px;
+    margin-left: calc(50% - 165px);
+  }
+}

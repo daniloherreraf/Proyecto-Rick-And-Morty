@@ -1,0 +1,171 @@
+.card {
+    border-radius: 20px;
+    width: 250px;
+    height: 400px;
+    background-color: rgba(54, 36, 36, 0.121);
+    color:rgb(20, 20, 20);
+    margin: 0px 10px;
+    margin-bottom: 80px;
+    box-shadow: 20px 30px 50px 20px rgba(0, 0, 0, 0.45);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/************* Boton Detalle ***************/
+.btnI {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.btnI button {
+    height: 28px;
+    width: 28px;
+    border-radius: 10%;
+    border: 1px solid black;
+    margin-top: 3px;
+    margin-right: 3px;
+    font-size: 20px;
+    background: rgba(223, 108, 37, 0.69);
+}
+
+.btnI button:hover {
+    cursor: pointer;
+    transition: background-color 0.5s;
+    background-color: rgba(231, 135, 83, 0.69);
+    color: black;
+    font-weight: bold;
+    border: 1px solid #313131;
+}
+
+/************* Título ***************/
+.btnI div {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    
+}
+
+.btnI h3 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 10px;
+    margin-top: 15px;
+    margin-bottom: 0px;
+    font-family: "Source Serif Pro", serif;
+    font-weight:100;
+    font-size: 31px;
+   /*  background-color: rgb(221, 124, 59); */
+    background: rgba(127, 219, 21, 0.69);
+    border-radius: 5px;
+}
+
+.btnI h4 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 10px;
+    margin-top: 15px;
+    margin-bottom: 0px;
+    font-family: "Source Serif Pro", serif;
+    font-weight:100;
+    font-size: 31px;
+   /*  background-color: rgb(221, 124, 59); */
+    background: rgba(127, 219, 21, 0.69);
+    border-radius: 5px;
+} 
+
+.btnI h5 {
+    display: flex;
+    justify-content: center;
+    text-align:justify;
+    margin: 10px;
+    margin-top: 15px;
+    margin-bottom: 0px;
+    font-family: "Source Serif Pro", serif;
+    font-weight:100;
+    font-size: 21px;
+   /*  background-color: rgb(221, 124, 59); */
+    background: rgba(127, 219, 21, 0.69);
+    border-radius: 5px;
+} 
+
+
+
+
+/************* Boton Detalle ***************/
+
+.infoCard {
+    display: flex;
+    position: relative;
+}
+
+/************* Imagen ***************/
+.infoCard img {
+    display: flex;
+    object-fit:fill;
+    border-radius: 20px;
+    width: 330px;
+    height: 200px;
+    border: 1px solid rgba(0, 0, 0, 0.45);
+}
+
+.card h5 {
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    margin: 5px;
+    font-family: "Source Serif Pro", serif;
+}
+
+/************* Dietas ***************/
+.infoCard2 {
+    display: flex;
+    margin-top: 5px;
+    justify-content: center;
+    width: 100%;
+    height: 80%;
+}
+
+.infoCard2 div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    justify-content: center;
+    align-items: flex-end;
+    width: 310px;
+    height: 74px;
+}
+
+.infoCard2 h5 {
+    margin: 2px;
+    display:flexbox;
+    padding: 1px;
+    border-radius: 10px;
+    font-family: "Source Serif Pro", serif;
+    width: 130px;
+   
+}
+
+.infoCard3 {
+    display: flex;
+    position: relative;
+    top: 0px;
+}
+.h3{
+    color:rgb(9, 48, 35)
+}
+/************* Health Score ***************/
+.h4 {
+    display: flex;
+    width: 100%;
+    max-height: 50px;
+    justify-content: center;
+    align-items: center;
+}
