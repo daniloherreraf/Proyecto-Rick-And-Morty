@@ -18,7 +18,7 @@
   .mensaje {
     color: rgb(87, 192, 60);
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 94px;
+    font-size: 84px;
   }
 
   .mensaje div {
@@ -28,7 +28,7 @@
   }
 
   .mensaje:hover{
-    color:rgba(31, 31, 30, 0.815);
+    color:rgba(190, 179, 18, 0.915);
     font-family: "Source Serif Pro", serif;
     font-size: 94px;
     

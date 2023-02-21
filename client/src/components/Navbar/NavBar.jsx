@@ -6,7 +6,7 @@ const NavBar = () => {
         <div className={style.bg}>
             <div className={style.bgHyC}> 
                 <Link to="/">
-                    <button>LANDIGPAGE</button>
+                    <button>LANDINGPAGE</button>
                 </Link>
                 <Link to="/home">
                     <button>HOME</button>

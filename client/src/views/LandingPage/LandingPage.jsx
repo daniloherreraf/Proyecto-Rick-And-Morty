@@ -6,7 +6,7 @@ const LandingPage = () => {
     return (
         <div className={style.bgImg}>
             <div className={style.mensaje}>
-            <div >Welcome</div>
+            <div >Welcome My App Rick and Morty</div>
             </div>
             <div className={style.bgHyC}>
             <Link to="/Home">
