@@ -37,13 +37,13 @@
   text-align:center;
   border: 1px solid rgb(49, 20, 3);
   font-family: "DM Sans", sans-serif;
-  background: rgba(247, 244, 243, 0.69);
+  background: rgba(127, 219, 21, 0.69);
   font-size: 15px;
 }
 
 .sortFilter select:hover {
   cursor: pointer;
-  transition: background-color 0.5s;
+  transition: background-color 0.9s;
   background-color: white;
   color: black;
   font-weight: bold;
@@ -93,7 +93,7 @@
   text-align: center;
   border: 1px solid #8f8e8e;
   font-family: "DM Sans", sans-serif;
-  background: rgba(178, 165, 157, 0.69);
+  background: rgba(127, 219, 21, 0.69);
   font-size: 20px;
   }
 

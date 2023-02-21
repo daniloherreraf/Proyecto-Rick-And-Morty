@@ -1,0 +1,245 @@
+.bgImg {
+    background-image: url("https://www.xtrafondos.com/wallpapers/resized/rick-en-otro-planeta-6354.jpg?s=large");
+      background-size: cover;
+      background-repeat: no-repeat;
+      position:fixed;
+      width: 100%;
+      height: 100%;
+      overflow: scroll;
+      z-index: 100;
+    }
+    
+    /************* NavBar ***************/
+    .nav {
+      display: flex;
+      background: rgba(235, 229, 225, 0.69);
+      border: 1px solid #8f8e8e;
+      height: 50px;
+      width: 100%;
+      top: 0px;
+      position: fixed;
+      z-index: 50;
+    }
+    
+    .nav div {
+      margin: auto;
+      display: flex;
+      justify-content: flex-start;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      width: 100%;
+      height: 100%;
+      padding: 3px;
+    }
+    
+    .nav button {
+      border-radius: 5px;
+      margin-left: 2px;
+      margin-top: 5px;
+      height: 35px;
+      width: 120px;
+      padding: 5px;
+      text-align: center;
+      border: 1px solid #8f8e8e;
+      font-family: "DM Sans", sans-serif;
+      background: rgba(247, 244, 243, 0.69);
+      font-size: 15px;
+      font-weight: bold;
+    }
+    
+    .nav button:hover {
+      cursor: pointer;
+      transition: background-color 0.5s;
+      background-color: white;
+      color: black;
+      font-weight: bold;
+      border: 1px solid #313131;
+    }
+    
+    /************* Fondo Detalle ***************/
+    .bgDetail {
+      width: 500px;
+      height: 40%;
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      overflow: hidden;
+      background-color:rgba(127, 219, 21, 0.69);
+      border-radius: 20px;
+      box-shadow: 5px 5px 15px 5px #000000;
+      margin-top: 100px;
+      margin-left: 5px;
+      margin-bottom: 20px;
+      padding: 20px 0px;
+      font-family: "Source Serif Pro", serif;
+    }
+    
+    
+    /************* Contenedor 1 de Label - Input  ***************/
+    .contenido {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      justify-content: center;
+      align-items: flex-start;
+      background-color: rgba(202, 193, 186, 0.253);
+      width: 100%;
+      height: 100%;
+      padding: 10px 0px;
+      border-radius: 15px;
+    }
+    
+    .contenido label {
+      font-family: "DM Sans", sans-serif;
+      display: flex;
+      width: 180px;
+      justify-content: center;
+      font-weight: bold;
+    }
+  
+    .contenido h5 {
+      font-family: "DM Sans", sans-serif;
+      display: flex;
+      width: 180px;
+      justify-content: center;
+      font-weight: bold;
+    }
+    
+    .contenido input {
+      font-family: "DM Sans", sans-serif;
+      display: flex;
+      width: 60%;
+      justify-content: flex-start;
+      font-weight: lighter;
+      border-radius: 10px;
+      border: 1px solid #8f8e8e;
+      height: 25px;
+      margin: 0px 20px;
+    }
+    
+    .contenido span {
+      display: flex;
+      justify-content: center;
+      font-family: "DM Sans", sans-serif;
+      font-weight: lighter;
+      color: red;
+    }
+    
+    .contenido div {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+    }
+    
+    .contenido textarea {
+      font-family: "DM Sans", sans-serif;
+      display: flex;
+      width: 60%;
+      justify-content: flex-start;
+      font-weight: lighter;
+      border-radius: 10px;
+      border: 1px solid #8f8e8e;
+      height: 60px;
+      margin: 0px 20px;
+    }
+    
+    .contenido select {
+      border-radius: 10px;
+      margin: 2px;
+      height: 35px;
+      width: 60%;
+      padding: 5px;
+      text-align: left;
+      border: 1px solid #8f8e8e;
+      font-weight: bold;
+      font-family: "DM Sans", sans-serif;
+      margin: 0px 20px;
+    }
+    
+    .contenido select:hover {
+      cursor: pointer;
+      transition: background-color 0.5s;
+      background-color: white;
+      color: black;
+      font-weight: bold;
+      border: 1px solid #313131;
+    }
+    
+    .btnSubmit button {
+      border-radius: 10px;
+      height: 40px;
+      width: 40%;
+      padding: 5px;
+      text-align: center;
+      border: 1px solid #ffffff;
+      font-family: "DM Sans", sans-serif;
+      background: rgba(127, 219, 21, 0.69);
+      font-size: 20px;
+      font-weight: bold;
+      margin: 0px 10px;
+    }
+    .btnSubmit button:hover {
+      cursor: pointer;
+      transition: background-color 0.5s;
+      background-color: white;
+      color: black;
+      font-weight: bold;
+      border: 1px solid #313131;
+    }
+    
+    .dietas {
+      margin: 2px;
+      width: 400px;
+    }
+    
+    .dietas div {
+      display: flex;
+      width: 300px;
+      width: 60%;
+      height: 100%;
+      flex-direction: row;
+      justify-content: space-between;
+     justify-content: flex-start;
+      flex-wrap: wrap;
+      align-items: center;
+      align-content: space-between;
+      margin: 5px;
+    }  
+    
+    .dietas button {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 10px;
+      height: 20px;
+      width: 20px;
+      padding: 5px;
+      text-align: center;
+      border: 1px solid #ffffff;
+      font-family: "DM Sans", sans-serif;
+      background: rgba(221, 211, 206, 0.69);
+      font-size: 18px;
+      margin: 5px;
+    }
+    
+    .dietas button:hover {
+      cursor: pointer;
+      transition: background-color 0.5s;
+      background-color: white;
+      color: black;
+      font-weight: bold;
+      border: 1px solid #313131;
+    }
+    
+    .dietas h4 {
+      margin: 0px;
+    }
+    
+    .contenido form {
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+      width: 100%;
+    }
+    

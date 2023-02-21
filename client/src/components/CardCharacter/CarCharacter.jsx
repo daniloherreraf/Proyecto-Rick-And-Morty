@@ -3,29 +3,29 @@ import { Link } from "react-router-dom";
 import style from "./CardCharacter.module.css";
 
 
-const CardCharacter = (props) => {
+const CardCharacter = ({name, img, gender, location, id}) => {
     return(
         <div className={style.card} >
             <div className={style.infoCard}>
-                <img title={props.name} src={props.img} alt="Image Not Found" />
+                <img title={name} src={img} alt="Image Not Found" />
             </div>
             <div className={style.btnI}>
                 <div>
-                <Link>
-                    <h3>{props.name}</h3>
+                <Link to={`/detail/${id}`}>
+                    <h3>{name}</h3>
                 </Link>
                 </div>
             </div>
             
             <div className={style.btnI}>
                 {/* <p className={style.infoCard2}> */}
-                    <h4>{props.gender}</h4>
+                    <h4>{gender}</h4>
                 {/* </p> */}
                 
             </div>
         
             <div className={style.btnI}>
-                    <h5>{props.location}</h5>
+                    <h5>{location}</h5>
             </div>
             
 

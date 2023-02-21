@@ -1,0 +1,110 @@
+/************* Fondo Imagen & Color ***************/
+.bgImg {
+    background-image: url("https://www.xtrafondos.com/wallpapers/resized/rick-en-otro-planeta-6354.jpg?s=large");
+      background-size: cover;
+      background-repeat: no-repeat;
+      position:fixed;
+      width: 100%;
+      height: 100%;
+      overflow: scroll;
+      z-index: 100;
+    }
+    
+    /************* NavBar ***************/
+    .nav {
+      display: flex;
+      background: rgba(235, 229, 225, 0.69);
+      border: 1px solid #8f8e8e;
+      height: 60px;
+      width: 100%;
+      top: 0px;
+      position: fixed;
+      z-index: 80;
+    }
+    
+    .nav div {
+      margin: auto;
+      display: flex;
+      justify-content: flex-start;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      width: 100%;
+      height: 100%;
+      padding: 3px;
+    }
+    
+    .nav button {
+      border-radius: 5px;
+      margin-left: 2px;
+      margin-top: 5px;
+      height: 35px;
+      width: 120px;
+      padding: 5px;
+      text-align: center;
+      border: 1px solid #8f8e8e;
+      font-family: "DM Sans", sans-serif;
+      background: rgba(247, 244, 243, 0.69);
+      font-size: 20px;
+      font-weight: bold;
+    }
+    
+    .nav button:hover {
+      cursor: pointer;
+      transition: background-color 0.5s;
+      background-color: white;
+      color: black;
+      font-weight: bold;
+      border: 1px solid #313131;
+    }
+    
+    /************* Title recipe ***************/
+    .bgDetail {
+      width: 500px;
+      height: 40%;
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      background-color: rgba(127, 219, 21, 0.69);
+      border-radius: 20px;
+      box-shadow: 5px 5px 15px 5px #000000;
+      margin-top: 100px;
+      margin-left: 5px;
+      margin-bottom: 20px;
+      padding: 20px 0px;
+      font-family: "Source Serif Pro", serif;
+    }
+    
+    /************* image recipe ***************/
+    .imagen {
+      width: 500px;
+      height: 350px;
+      border-radius: 25px;
+      box-shadow: 5px 5px 15px 5px #000000;
+      margin-left: 5px;
+    }
+  
+     
+    /************* Contenedor summary y steps - H3 - P ***************/
+    .contenido3 {
+      display: flex;
+      background-color: rgba(127, 219, 21, 0.69);
+      box-shadow: 5px 5px 15px 5px #000000;
+      flex-direction: column;
+      align-items: center;
+      padding: 30px;
+      margin-left: 5px;
+      margin-right: 5px;
+      border-radius: 20px;
+      margin-block-end: 85px;
+    }
+    
+     .contenido3 h3 {
+      font-family: "DM Sans", sans-serif;
+      font-weight: bold;
+    }
+    
+    .contenido3 p {
+      font-family: "DM Sans", sans-serif;
+    }

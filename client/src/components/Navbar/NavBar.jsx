@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import style from "./NavBar.module.css"
+import Search from "../Search/Search";
 
 const NavBar = () => {
     return(
@@ -14,6 +15,7 @@ const NavBar = () => {
                 <Link to="/create">
                     <button>FORM</button>
                 </Link>
+                <Search/>
             </div>
         </div>
     )
