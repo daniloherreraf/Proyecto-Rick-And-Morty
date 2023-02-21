@@ -9,7 +9,9 @@ const {
 const getCharactersHandler = async (req, res) => {
     const { name } = req.query;
     try {
+        
         const results = name ? await searchCharacterByName(name) : await getAllInfo();
+        console.log(results)
         if(results.length === 0) {
             return res.status(404).send(`No existe personaje con ese nombre: ${name}`)
         } else {
